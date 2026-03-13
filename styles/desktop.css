@@ -1,0 +1,168 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:white;
+color:#222;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:black;
+position:relative;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.nav-links a:hover{
+color:orange;
+}
+
+main{
+max-width:1200px;
+margin:0 auto;
+padding:0 20px;
+}
+
+/* HERO */
+
+.hero{
+background:#111;
+color:white;
+text-align:center;
+padding:140px 20px;
+width:100%;
+background-image:url("/images/container-yard.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.btn-primary{
+background:orange;
+color:white;
+padding:15px 30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+
+/* SERVICES */
+
+.services{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:80px;
+}
+
+.service-box{
+background:#f5f5f5;
+padding:40px;
+width:250px;
+text-align:center;
+}
+
+.services,
+.why-us{
+max-width:1200px;
+margin:0 auto;
+}
+
+
+/* FOOTER */
+
+footer{
+background:black;
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1200px;
+margin:0 auto;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.footer-links{
+display:flex;
+gap:20px;
+}
+
+.footer-links a{
+color:white;
+text-decoration:none;
+}
+
+/* LOGO */
+
+.logo img{
+height:100px;
+width:auto;
+}
+
+.hamburger{
+display:none;
+}
+
+/* WHY US SECTION */
+
+.why-us{
+padding:80px 20px;
+text-align:center;
+background:#f8f8f8;
+border-top: 3px solid orange;
+}
+
+.why-us h2{
+font-size:2rem;
+margin-bottom:50px;
+color:#111;
+}
+
+/* GRID LAYOUT */
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+max-width:1200px;
+margin:0 auto;
+}
+
+.why-item{
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+transition:transform 0.2s ease;
+}
+
+.why-item:hover{
+transform:translateY(-5px);
+}
+
+.why-item h3{
+color:orange;
+margin-bottom:10px;
+}
