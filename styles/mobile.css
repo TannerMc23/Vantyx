@@ -53,4 +53,18 @@ grid-template-columns:1fr;
 gap:20px;
 }
 
+.container-content{
+flex-direction:column;
+text-align:center;
+}
+
+.delivery-grid{
+flex-direction:column;
+align-items:center;
+}
+
+.delivery-item{
+width:90%;
+}
+
 }
