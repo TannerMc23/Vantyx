@@ -49,7 +49,7 @@ cursor:pointer;
 /* LOGO */
 
 .logo img{
-height:45px;
+height:75px;
 }
 
 
@@ -199,4 +199,16 @@ align-items:center;
 justify-content:center;
 }
 
+.faq-section{
+margin:60px auto;
+}
+
+.faq-question{
+font-size:16px;
+padding:16px;
+}
+
+.faq-answer p{
+padding:15px;
+}
 }

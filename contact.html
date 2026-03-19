@@ -1,66 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vantyx - Contact</title>
     <meta name="description" content="Vantyx Contact Us | Containers">
     <meta name="author" content="Tanner McMillan">
+    <script src="script/script.js" defer></script>
+    <script src="script/hamburger.js" defer></script>
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/mobile.css">
 </head>
+
 <body>
     <header>
-    <nav class="navbar">
+        <nav class="navbar">
 
-        <div class="logo">
-            <a href="index.html">
-                <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
-            </a>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="containers.html">Purchase / Lease</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+            <div class="hamburger">
+                ☰
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form-section">
+
+            <h1>Contact Vantyx</h1>
+
+            <p>Have questions or need a quote? Send us a message.</p>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+                <input type="hidden" name="access_key" value="76734249-b636-4495-b642-125dd0722cdd">
+
+                <input type="hidden" name="subject" value="New Contact Form Submission - Vantyx">
+
+                <input type="text" name="name" placeholder="Full Name" required>
+
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <input type="tel" name="phone" placeholder="Phone Number">
+
+                <textarea name="message" placeholder="How can we help you?" required></textarea>
+
+                <input type="hidden" name="redirect" value="https://tannermc23.github.io/Vantyx/thank-you.html">
+
+                <button type="submit" class="btn-primary">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
+                </a>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="containers.html">Containers</a>
+                <a href="faq.html">FAQs</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <p>Email: madams@vantyx.us</p>
+                <p>Phone: (208) 431-0931</p>
+            </div>
+
         </div>
 
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="containers.html">Purchase / Lease</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+        <p class="copyright">
+            ©️<span id="currentyear"></span> Vantyx Storage Containers
+        </p>
 
-        <div class="hamburger">
-            ☰
-        </div>
-
-    </nav>
-</header>
-<main>
-
-</main>
-<footer>
-
-    <div class="footer-container">
-
-        <div class="footer-logo">
-            <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
-        </div>
-
-        <div class="footer-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="containers.html">Containers</a>
-            <a href="faq.html">FAQs</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
-        <div class="footer-contact">
-            <p>Email: </p>
-            <p>Phone: (xxx)xxx-xxxx</p>
-        </div>
-
-    </div>
-
-    <p class="copyright">
-        ©️<span id="currentyear"></span> Vantyx Storage Containers
-    </p>
-
-</footer>
+    </footer>
 </body>
+
 </html>

@@ -44,7 +44,7 @@
 
         <div class="hero-content">
 
-            <h1>VANTYX STORAGE CONTAINERS</h1>
+            <h1>VANTYX <br>STORAGE CONTAINERS</h1>
 
             <p>40ft Industrial Steel Containers Available for Purchase or Lease</p>
 
@@ -233,11 +233,21 @@
 
         <p>Need a 40ft storage container? Enter your info and we’ll get back to you.</p>
 
-        <form class="modal-form">
+        <form action="https://api.web3forms.com/submit" method="POST" class="modal-form">
 
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <input type="tel" placeholder="Phone Number" required>
+            <input type="hidden" name="access_key" value="76734249-b636-4495-b642-125dd0722cdd">
+
+            <input type="hidden" name="subject" value="New Quote Request - Vantyx">
+
+            <input type="text" name="name" placeholder="Full Name" required>
+
+            <input type="email" name="email" placeholder="Email Address" required>
+
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+
+            <input type="hidden" name="redirect" value="https://tannermc23.github.io/Vantyx/thank-you.html">
+
+            <textarea name="message" placeholder="Where do you need the container delivered?" required></textarea>
 
             <button type="submit" class="btn-primary">
                 Request Quote

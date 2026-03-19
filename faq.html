@@ -1,66 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vantyx - FAQ</title>
     <meta name="description" content="Vantyx FAQ | Containers">
     <meta name="author" content="Tanner McMillan">
+    <script src="script/script.js" defer></script>
+    <script src="script/hamburger.js" defer></script>
+    <script src="script/accordion.js" defer></script>
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/mobile.css">
 </head>
+
 <body>
     <header>
-    <nav class="navbar">
+        <nav class="navbar">
 
-        <div class="logo">
-            <a href="index.html">
-                <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
-            </a>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
+                </a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="containers.html">Purchase / Lease</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+            <div class="hamburger">
+                ☰
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="faq-section">
+
+            <h1>Frequently Asked Questions</h1>
+            <p class="faq-intro">Everything you need to know about our 40ft storage containers.</p>
+
+            <div class="faq-container">
+
+                <div class="faq-item">
+                    <button class="faq-question">What size containers do you offer?</button>
+                    <div class="faq-answer">
+                        <p>We currently offer 40ft steel storage containers designed for durability and maximum storage
+                            capacity.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">Do you offer delivery?</button>
+                    <div class="faq-answer">
+                        <p>Yes! We provide fast and reliable delivery directly to your location.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">Can I lease instead of buying?</button>
+                    <div class="faq-answer">
+                        <p>Absolutely. We offer flexible leasing options to fit your needs and budget.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">How secure are the containers?</button>
+                    <div class="faq-answer">
+                        <p>Our containers are made from high-quality steel and include secure locking systems for
+                            maximum protection.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">How quickly can I get a container?</button>
+                    <div class="faq-answer">
+                        <p>Delivery times vary, but we aim to get containers to you as quickly as possible—often within
+                            a few days.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="faq-cta">
+            <p>Still have questions?</p>
+            <a href="contact.html" class="btn-primary">Contact Us</a>
+        </div>
+        </section>
+
+    </main>
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
+                </a>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="containers.html">Containers</a>
+                <a href="faq.html">FAQs</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <p>Email: madams@vantyx.us</p>
+                <p>Phone: (208) 431-0931</p>
+            </div>
+
         </div>
 
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="containers.html">Purchase / Lease</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+        <p class="copyright">
+            ©️<span id="currentyear"></span> Vantyx Storage Containers
+        </p>
 
-        <div class="hamburger">
-            ☰
-        </div>
-
-    </nav>
-</header>
-<main>
-
-</main>
-<footer>
-
-    <div class="footer-container">
-
-        <div class="footer-logo">
-            <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
-        </div>
-
-        <div class="footer-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="containers.html">Containers</a>
-            <a href="faq.html">FAQs</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
-        <div class="footer-contact">
-            <p>Email: </p>
-            <p>Phone: (xxx)xxx-xxxx</p>
-        </div>
-
-    </div>
-
-    <p class="copyright">
-        ©️<span id="currentyear"></span> Vantyx Storage Containers
-    </p>
-
-</footer>
+    </footer>
 </body>
+
 </html>
