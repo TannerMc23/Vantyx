@@ -21,6 +21,12 @@ h2 {
     -webkit-text-fill-color: transparent;
 }
 
+.name-vantyx {
+    color: white;
+    font-weight: bolder;
+    font-size: 4rem;
+    font-family: 'bungee';
+}
 /* NAVBAR */
 
 .navbar {
@@ -185,6 +191,7 @@ footer {
     background: black;
     color: white;
     padding: 80px 60px;
+    text-align: center;
 }
 
 .footer-container {
