@@ -1,219 +1,251 @@
-@media (max-width:768px) {
+@media (max-width:768px){
 
-    /* GLOBAL */
+/* GLOBAL */
 
-    body {
-        font-size: 16px;
-    }
+body{
+font-size:15px;
+line-height:1.5;
+}
 
-    section {
-        padding: 80px 0;
-    }
+section{
+padding:60px 0;
+}
 
-    main {
-        padding: 0 20px;
-    }
-
-
-    /* NAVIGATION */
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background: #0b0b0b;
-        position: absolute;
-        top: 70px;
-        right: 0;
-        width: 220px;
-        padding: 20px;
-        gap: 15px;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    }
-
-    .nav-links li {
-        text-align: right;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .hamburger {
-        display: block;
-        color: white;
-        font-size: 26px;
-        cursor: pointer;
-    }
+main{
+padding:0 16px;
+}
 
 
-    /* LOGO */
+/* NAVIGATION */
 
-    .logo img {
-        height: 75px;
-    }
+.navbar{
+padding:15px 20px;
+}
 
+.nav-links{
+display:none;
+flex-direction:column;
+background:#0b0b0b;
+position:absolute;
+top:65px;
+right:10px;
+width:200px;
+padding:15px;
+gap:12px;
+border-radius:6px;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
 
-    /* HERO */
+.nav-links li{
+text-align:right;
+}
 
-    .hero {
-        height: 500px;
-        padding: 0 20px;
-    }
+.nav-links.active{
+display:flex;
+}
 
-    .hero h1 {
-        font-size: 28px;
-        line-height: 1.2;
-        margin-bottom: 15px;
-    }
-
-    .hero p {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-
-    /* HERO BUTTONS */
-
-    .hero-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .btn-primary,
-    .btn-secondary {
-        width: 100%;
-        text-align: center;
-        padding: 14px;
-    }
+.hamburger{
+display:block;
+font-size:24px;
+}
 
 
-    /* SERVICES */
+/* LOGO (FIXED SIZE) */
 
-    .services {
-        flex-direction: column;
-        align-items: center;
-        padding: 40px 0;
-        gap: 20px;
-    }
-
-    .service-box {
-        width: 100%;
-        padding: 30px;
-        margin-bottom: 10px;
-    }
+.logo img{
+height:50px;
+}
 
 
-    /* WHY US */
+/* HERO (BIG IMPROVEMENT) */
 
-    .why-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
+.hero{
+height:460px;
+padding:0 15px;
+}
 
-    .why-item {
-        padding: 25px;
-    }
+.hero-content{
+max-width:100%;
+}
 
+.hero h1{
+font-size:26px;
+line-height:1.2;
+margin-bottom:12px;
+}
 
-    /* FEATURED CONTAINER */
+.hero p{
+font-size:15px;
+margin-bottom:20px;
+}
 
-    .container-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 30px;
-    }
+/* HERO BUTTONS */
 
-    .container-image img {
-        width: 100%;
-        height: auto;
-    }
+.hero-buttons{
+flex-direction:column;
+gap:12px;
+}
 
-    .container-text {
-        text-align: center;
-    }
-
-
-    /* DELIVERY */
-
-    .delivery-grid {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .delivery-item {
-        width: 100%;
-        padding: 25px;
-    }
+.btn-primary,
+.btn-secondary{
+width:100%;
+padding:12px;
+font-size:15px;
+}
 
 
-    /* CTA SECTION */
+/* SERVICES */
 
-    .cta {
-        padding: 60px 20px;
-    }
+.services{
+flex-direction:column;
+gap:16px;
+padding:20px 0;
+}
 
-    .cta h2 {
-        font-size: 24px;
-        margin-bottom: 15px;
-    }
+.service-box{
+width:100%;
+padding:22px;
+border-radius:8px;
+}
 
-    .cta p {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
+.service-box h3{
+font-size:18px;
+margin-bottom:8px;
+}
 
-
-    /* FOOTER */
-
-    footer {
-        text-align: center;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-        gap: 30px;
-    }
-
-    .footer-links {
-        flex-direction: column;
-        gap: 10px;
-    }
+.service-box p{
+font-size:14px;
+}
 
 
-    /* MODAL */
+/* WHY US */
 
-    .modal-content {
-        width: 90%;
-        padding: 25px;
-    }
+.why-grid{
+grid-template-columns:1fr;
+gap:15px;
+}
 
-    .modal-form input {
-        font-size: 16px;
-    }
+.why-item{
+padding:20px;
+}
+
+.why-item h3{
+font-size:17px;
+}
+
+.why-item p{
+font-size:14px;
+}
 
 
-    /* TAP FRIENDLY */
+/* CONTAINER SECTION */
 
-    a,
-    button {
-        min-height: 44px;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-    }
+.container-content{
+flex-direction:column;
+gap:20px;
+}
 
-    .faq-section {
-        margin: 60px auto;
-    }
+.container-text h2{
+font-size:22px;
+}
 
-    .faq-question {
-        font-size: 16px;
-        padding: 16px;
-    }
+.container-text p{
+font-size:14px;
+}
 
-    .faq-answer p {
-        padding: 15px;
-    }
+
+/* DELIVERY */
+
+.delivery-grid{
+flex-direction:column;
+gap:15px;
+}
+
+.delivery-item{
+width:100%;
+padding:20px;
+}
+
+.delivery-item h3{
+font-size:17px;
+}
+
+
+/* CTA */
+
+.cta{
+padding:50px 20px;
+}
+
+.cta h2{
+font-size:22px;
+}
+
+.cta p{
+font-size:14px;
+}
+
+
+/* FOOTER */
+
+footer{
+padding:40px 20px;
+}
+
+.footer-container{
+flex-direction:column;
+gap:20px;
+}
+
+.footer-links{
+flex-direction:column;
+gap:8px;
+}
+
+
+/* MODAL */
+
+.modal-content{
+width:90%;
+padding:20px;
+}
+
+.modal-content h2{
+font-size:22px;
+}
+
+.modal-form{
+gap:12px;
+}
+
+.modal-form input,
+.modal-form textarea{
+padding:10px;
+font-size:15px;
+}
+
+
+/* FAQ */
+
+.faq-section{
+margin:50px auto;
+}
+
+.faq-question{
+font-size:15px;
+padding:14px;
+}
+
+.faq-answer p{
+font-size:14px;
+padding:14px;
+}
+
+
+/* TAP FRIENDLY */
+
+a, button{
+min-height:42px;
+}
+
 }
