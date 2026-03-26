@@ -49,7 +49,9 @@ display:block;
 font-size:24px;
 }
 
-
+.name-vantyx {
+    font-size: 2rem;
+}
 /* LOGO (FIXED SIZE) */
 
 .logo img{
