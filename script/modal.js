@@ -1,30 +1,21 @@
-const modal = document.getElementById("quoteModal");
-const closeBtn = document.querySelector(".close-btn");
+// Hamburger Menu — Vantyx
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
 
-// Show modal after page loads
-window.addEventListener("load", () => {
-    setTimeout(() => {
-        modal.style.display = "flex";
-    }, 1000); // 1 second delay
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
 });
 
-// Close when clicking X
-closeBtn.addEventListener("click", () => {
-    modal.style.display = "none";
-});
-
-// Close when clicking outside
-window.addEventListener("click", (e) => {
-    if (e.target === modal) {
-        modal.style.display = "none";
+// Close on outside click
+document.addEventListener('click', (e) => {
+    if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
+        navLinks.classList.remove('active');
     }
 });
 
-if (!localStorage.getItem("modalShown")) {
-    window.addEventListener("load", () => {
-        setTimeout(() => {
-            modal.style.display = "flex";
-            localStorage.setItem("modalShown", "true");
-        }, 1000);
+// Close on nav link click (mobile)
+navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
     });
-}
+});

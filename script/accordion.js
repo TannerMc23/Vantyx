@@ -1,28 +1,23 @@
-const faqItems = document.querySelectorAll(".faq-item");
+// FAQ Accordion — Vantyx
+const faqItems = document.querySelectorAll('.faq-item');
 
 faqItems.forEach(item => {
-    const question = item.querySelector(".faq-question");
+    const question = item.querySelector('.faq-question');
 
-    question.addEventListener("click", () => {
+    question.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
 
-        // Close others (optional for cleaner UX)
+        // Close all
         faqItems.forEach(i => {
-            if(i !== item){
-                i.classList.remove("active");
-                i.querySelector(".faq-answer").style.maxHeight = null;
-            }
+            i.classList.remove('active');
+            i.querySelector('.faq-answer').style.maxHeight = null;
         });
 
-        // Toggle current
-        item.classList.toggle("active");
-
-        const answer = item.querySelector(".faq-answer");
-
-        if(item.classList.contains("active")){
-            answer.style.maxHeight = answer.scrollHeight + "px";
-        } else {
-            answer.style.maxHeight = null;
+        // Open clicked if it wasn't active
+        if (!isActive) {
+            item.classList.add('active');
+            const answer = item.querySelector('.faq-answer');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
         }
-
     });
 });

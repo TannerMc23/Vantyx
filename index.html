@@ -1,265 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vantyx - Home</title>
-    <meta name="description" content="Vantyx Home Page | Containers">
+    <title>Vantyx — Industrial Storage Containers | Utah & Idaho</title>
+    <meta name="description" content="Vantyx Storage Containers — 40ft industrial steel containers available for purchase or lease. Serving Utah and Idaho with fast, professional delivery.">
     <meta name="author" content="Tanner McMillan">
+    <link rel="icon" href="images/vantyx-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <script src="script/script.js" defer></script>
     <script src="script/hamburger.js" defer></script>
     <script src="script/modal.js" defer></script>
-    <link rel="stylesheet" href="styles/desktop.css">
-    <link rel="stylesheet" href="styles/mobile.css">
-    <link rel="icon" href="images/vantyx-logo.svg">
+    <script src="script/reveal.js" defer></script>
 </head>
-
 <body>
-    <header>
-        <nav class="navbar">
 
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/vantyx-logo.svg" alt="Vantyx Logo" loading="lazy">
-                </a>
-
-            </div>
-            <div class="name-vantyx">VANTYX</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="containers.html">Purchase / Lease</a></li>
-                <li><a href="faq.html">FAQs</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-
-            <div class="hamburger">
-                ☰
-            </div>
-
-        </nav>
-    </header>
-    <section class="hero">
-
-        <img src="images/container-yard.jpg" class="hero-bg" alt="Container Yard" loading="lazy">
-
-        <div class="hero-content">
-
-            <h1>VANTYX <br>STORAGE CONTAINERS</h1>
-
-            <p>40ft Industrial Steel Containers Available for Purchase or Lease</p>
-
-            <div class="hero-buttons">
-                <a href="containers.html" class="btn-primary">View Containers</a>
-                <a href="contact.html" class="btn-secondary">Get a Quote</a>
-            </div>
-
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/vantyx-logo.svg" alt="Vantyx Logo" loading="eager">
+            </a>
         </div>
+        <div class="name-vantyx">VANTYX</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="containers.html">Purchase / Lease</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Menu">&#9776;</button>
+    </nav>
+</header>
 
-    </section>
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section class="hero">
+    <img src="images/container-yard.jpg" class="hero-bg" alt="Vantyx Container Yard" loading="eager">
+    <div class="hero-overlay"></div>
 
-
-    <!-- SERVICES -->
-
-    <section class="services">
-
-        <div class="service-box">
-            <h3>Container Purchase</h3>
-            <p>Buy high-quality containers built to last.</p>
+    <div class="hero-content">
+        <div class="hero-eyebrow">Utah &amp; Idaho</div>
+        <h1>VANTYX<br><span>STORAGE</span><br>CONTAINERS</h1>
+        <p>40ft Industrial Steel Containers — Built Tough, Delivered Fast</p>
+        <div class="hero-buttons">
+            <a href="containers.html" class="btn-primary">View Containers</a>
+            <a href="contact.html" class="btn-secondary">Get a Free Quote</a>
         </div>
-
-        <div class="service-box">
-            <h3>Flexible Leasing</h3>
-            <p>Affordable monthly container leasing options.</p>
-        </div>
-
-        <div class="service-box">
-            <h3>Delivery</h3>
-            <p>Fast and reliable delivery to your location.</p>
-        </div>
-
-    </section>
-    <!-- FEATURED CONTAINER -->
-
-    <section class="featured-container">
-
-        <div class="container-content">
-
-            <div class="container-text">
-
-                <h2>40ft Storage Containers</h2>
-
-                <p>
-                    Our heavy-duty 40ft storage containers are built from industrial
-                    grade steel and designed to withstand harsh environments.
-                    Perfect for construction sites, businesses, and long-term storage.
-                </p>
-
-                <ul>
-                    <li>Wind & Water Tight</li>
-                    <li>Secure Locking Doors</li>
-                    <li>Durable Steel Construction</li>
-                    <li>Large 40ft Storage Capacity</li>
-                </ul>
-
-                <a href="contact.html" class="btn-primary">
-                    Request a Quote
-                </a>
-
-            </div>
-
-            <div class="container-image">
-                <img src="images/40ft-container.webp" alt="40ft storage container" loading="lazy">
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- WHY VANTYX -->
-
-    <section class="why-us">
-
-        <h2>Why Choose Vantyx?</h2>
-
-        <div class="why-grid">
-
-            <div class="why-item">
-                <h3>High Quality Containers</h3>
-                <p>Durable steel containers built for long-term reliability.</p>
-            </div>
-
-            <div class="why-item">
-                <h3>Fast Delivery</h3>
-                <p>We deliver containers quickly and safely to your location.</p>
-            </div>
-
-            <div class="why-item">
-                <h3>Flexible Leasing</h3>
-                <p>Affordable leasing options tailored to your needs.</p>
-            </div>
-
-            <div class="why-item">
-                <h3>Trusted Service</h3>
-                <p>Reliable support and service you can count on.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="delivery">
-
-        <h2>Fast & Reliable Delivery</h2>
-
-        <p>
-            Vantyx delivers storage containers directly to your property,
-            business, or job site with professional placement.
-        </p>
-
-        <div class="delivery-grid">
-
-            <div class="delivery-item">
-                <h3>Local Delivery</h3>
-                <p>We deliver quickly throughout the region.</p>
-            </div>
-
-            <div class="delivery-item">
-                <h3>Professional Placement</h3>
-                <p>Containers are safely positioned exactly where you need them.</p>
-            </div>
-
-            <div class="delivery-item">
-                <h3>Flexible Scheduling</h3>
-                <p>Choose delivery times that work for you.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="cta">
-
-        <h2>Need a Storage Container?</h2>
-
-        <p>Lease or purchase a 40ft container today.</p>
-
-        <a href="contact.html" class="btn-primary">
-            Request a Quote
-        </a>
-
-    </section>
-
-    <footer>
-
-        <div class="footer-container">
-
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
-
-                </a>
-            </div>
-
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="containers.html">Containers</a>
-                <a href="faq.html">FAQs</a>
-                <a href="contact.html">Contact</a>
-            </div>
-
-            <div class="footer-contact">
-                <p>Email: madams@vantyx.us</p>
-                <p>Phone: (208) 431-0931</p>
-            </div>
-
-        </div>
-
-        <p class="copyright">
-            ©️<span id="currentyear"></span> Vantyx Storage Containers
-        </p>
-
-    </footer>
-</body>
-<!-- MODAL -->
-
-<div id="quoteModal" class="modal">
-
-    <div class="modal-content">
-
-        <span class="close-btn">&times;</span>
-
-        <h2>Get a Quote</h2>
-
-        <p>Need a 40ft storage container? Enter your info and we’ll get back to you.</p>
-
-        <form action="https://api.web3forms.com/submit" method="POST" class="modal-form">
-
-            <input type="hidden" name="access_key" value="76734249-b636-4495-b642-125dd0722cdd">
-
-            <input type="hidden" name="subject" value="New Quote Request - Vantyx">
-
-            <input type="text" name="name" placeholder="Full Name" required>
-
-            <input type="email" name="email" placeholder="Email Address" required>
-
-            <input type="tel" name="phone" placeholder="Phone Number" required>
-
-            <input type="hidden" name="redirect" value="https://tannermc23.github.io/Vantyx/thank-you.html">
-
-            <textarea name="message" placeholder="Where do you need the container delivered?" required></textarea>
-
-            <button type="submit" class="btn-primary">
-                Request Quote
-            </button>
-
-        </form>
-
     </div>
 
+    <div class="hero-location">Serving Utah &amp; Idaho</div>
+</section>
+
+<!-- ============================================================
+     STATS BAR
+     ============================================================ -->
+<div class="stats-bar reveal">
+    <div class="stat-item">
+        <span class="stat-number">40FT</span>
+        <span class="stat-label">Container Length</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">2</span>
+        <span class="stat-label">States Served</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">Steel Construction</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">Fast</span>
+        <span class="stat-label">Professional Delivery</span>
+    </div>
 </div>
 
+<!-- ============================================================
+     SERVICES
+     ============================================================ -->
+<section class="services">
+    <div class="section-header reveal">
+        <span class="section-eyebrow">What We Offer</span>
+        <h2>BUILT FOR BUSINESS</h2>
+        <p>Industrial-grade container solutions with the flexibility your operation demands.</p>
+    </div>
+
+    <div class="services-grid">
+        <div class="service-card reveal">
+            <div class="service-icon">🏗️</div>
+            <h3>Purchase</h3>
+            <p>Own your container outright. Our 40ft steel containers are a long-term asset built to handle the toughest conditions — construction, agriculture, business storage, and more.</p>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.1s">
+            <div class="service-icon">📋</div>
+            <h3>Flexible Leasing</h3>
+            <p>Need storage without the commitment? Our leasing options give you full access to a 40ft container on a schedule that fits your timeline and budget.</p>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.2s">
+            <div class="service-icon">🚚</div>
+            <h3>Delivery & Placement</h3>
+            <p>We handle everything. Containers are delivered directly to your site, business, or property and placed exactly where you need them — professionally and on time.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     FEATURED CONTAINER
+     ============================================================ -->
+<section class="featured">
+    <div class="featured-inner">
+        <div class="featured-text reveal-left">
+            <span class="section-eyebrow">Our Container</span>
+            <h2>40FT STEEL STORAGE CONTAINER</h2>
+            <p>Our heavy-duty 40ft containers are engineered from industrial-grade steel to withstand harsh environments, extreme weather, and demanding job sites. Whether you need long-term storage or temporary space on a worksite, this is the container that delivers.</p>
+            <ul class="specs-list">
+                <li>Wind &amp; Water Tight Seal</li>
+                <li>Secure Heavy-Duty Locking Doors</li>
+                <li>Industrial-Grade Steel Construction</li>
+                <li>Maximum 40ft Storage Capacity</li>
+                <li>Available for Purchase or Lease</li>
+                <li>Professional Delivery Included</li>
+            </ul>
+            <a href="contact.html" class="btn-primary">Request a Quote</a>
+        </div>
+        <div class="featured-image reveal-right">
+            <img src="images/40ft-container.webp" alt="Vantyx 40ft Steel Storage Container" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     WHY VANTYX
+     ============================================================ -->
+<section class="why-us">
+    <div class="section-header reveal">
+        <span class="section-eyebrow">Why Vantyx</span>
+        <h2>THE VANTYX DIFFERENCE</h2>
+        <p>We don't just sell containers. We provide a complete solution — from the right unit to doorstep delivery.</p>
+    </div>
+
+    <div class="why-grid">
+        <div class="why-card reveal">
+            <div class="why-icon">🔩</div>
+            <h3>High Quality</h3>
+            <p>Durable industrial steel containers built for long-term reliability in any environment or climate.</p>
+        </div>
+        <div class="why-card reveal" style="transition-delay:0.1s">
+            <div class="why-icon">⚡</div>
+            <h3>Fast Delivery</h3>
+            <p>We move quickly. Containers are delivered safely to your location without the waiting games.</p>
+        </div>
+        <div class="why-card reveal" style="transition-delay:0.2s">
+            <div class="why-icon">📐</div>
+            <h3>Flexible Options</h3>
+            <p>Purchase or lease — we tailor the arrangement to fit what your project or business actually needs.</p>
+        </div>
+        <div class="why-card reveal" style="transition-delay:0.3s">
+            <div class="why-icon">🤝</div>
+            <h3>Trusted Service</h3>
+            <p>Straightforward pricing, honest communication, and reliable follow-through from start to finish.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     DELIVERY SECTION
+     ============================================================ -->
+<section class="delivery">
+    <div class="delivery-inner">
+        <div class="delivery-text reveal-left">
+            <span class="section-eyebrow">Delivery</span>
+            <h2>WE COME TO YOU</h2>
+            <p>Forget the logistics headache. Vantyx delivers your container directly to your property, job site, or business with professional placement — you just tell us where.</p>
+
+            <div class="delivery-features">
+                <div class="delivery-feature">
+                    <div class="delivery-feature-icon">📍</div>
+                    <div>
+                        <h4>Local Delivery</h4>
+                        <p>Fast delivery throughout Utah and Idaho — we know the region and we move efficiently.</p>
+                    </div>
+                </div>
+                <div class="delivery-feature">
+                    <div class="delivery-feature-icon">🎯</div>
+                    <div>
+                        <h4>Professional Placement</h4>
+                        <p>Containers are positioned safely and precisely where you need them on your property.</p>
+                    </div>
+                </div>
+                <div class="delivery-feature">
+                    <div class="delivery-feature-icon">🗓️</div>
+                    <div>
+                        <h4>Flexible Scheduling</h4>
+                        <p>We work around your timeline — schedule delivery times that fit your operation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="delivery-map reveal-right">
+            <div class="map-graphic">
+                <div class="map-title">SERVICE AREA</div>
+                <div class="map-subtitle">Currently Serving</div>
+                <div class="service-areas">
+                    <div class="service-area-item">
+                        <span class="area-dot"></span>
+                        Utah
+                    </div>
+                    <div class="service-area-item">
+                        <span class="area-dot"></span>
+                        Idaho
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================================
+     CTA SECTION
+     ============================================================ -->
+<section class="cta-section">
+    <div class="cta-inner reveal">
+        <span class="section-eyebrow">Get Started Today</span>
+        <h2>NEED A <span>CONTAINER?</span></h2>
+        <p>Whether you're buying or leasing, we make it simple. Reach out today and we'll get you sorted fast.</p>
+        <div class="cta-buttons">
+            <a href="contact.html" class="btn-primary">Request a Free Quote</a>
+            <a href="containers.html" class="btn-secondary">Browse Containers</a>
+        </div>
+        <p class="cta-phone">Or call us directly — <a href="tel:2084310931">(208) 431-0931</a></p>
+    </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-brand">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/vantyx-logo.png" alt="Vantyx Logo">
+                </a>
+            </div>
+            <p>Industrial-grade 40ft steel containers for purchase or lease. Serving Utah &amp; Idaho.</p>
+        </div>
+
+        <div class="footer-nav-group">
+            <h4>Navigation</h4>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="containers.html">Purchase / Lease</a>
+                <a href="faq.html">FAQs</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="footer-contact-info">
+            <h4>Contact</h4>
+            <a href="mailto:madams@vantyx.us">
+                <span>📧</span> madams@vantyx.us
+            </a>
+            <a href="tel:2084310931">
+                <span>📞</span> (208) 431-0931
+            </a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p class="copyright">©️ <span id="currentyear"></span> Vantyx Storage Containers. All rights reserved.</p>
+        <span class="footer-tagline">Utah &amp; Idaho</span>
+    </div>
+</footer>
+
+<!-- ============================================================
+     MODAL
+     ============================================================ -->
+<div id="quoteModal" class="modal">
+    <div class="modal-content">
+        <button class="close-btn" aria-label="Close">&times;</button>
+        <h2>GET A QUOTE</h2>
+        <p>Need a 40ft storage container? Enter your info and we'll get back to you fast.</p>
+        <form action="https://api.web3forms.com/submit" method="POST" class="modal-form">
+            <input type="hidden" name="access_key" value="76734249-b636-4495-b642-125dd0722cdd">
+            <input type="hidden" name="subject" value="New Quote Request - Vantyx">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <textarea name="message" placeholder="Where do you need the container delivered?" required></textarea>
+            <input type="hidden" name="redirect" value="https://tannermc23.github.io/Vantyx/thank-you.html">
+            <button type="submit" class="btn-primary">Request Quote</button>
+        </form>
+    </div>
+</div>
+
+</body>
 </html>

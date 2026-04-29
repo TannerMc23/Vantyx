@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vantyx - Containers</title>
-    <meta name="description" content="Vantyx Containers Lease/Purchase | Containers">
+    <title>Vantyx — Purchase & Lease Containers</title>
+    <meta name="description" content="Vantyx Storage Containers — Browse our 40ft steel containers available for purchase or lease in Utah and Idaho.">
     <meta name="author" content="Tanner McMillan">
+    <link rel="icon" href="images/vantyx-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/desktop.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <script src="script/script.js" defer></script>
     <script src="script/hamburger.js" defer></script>
-    <link rel="stylesheet" href="styles/desktop.css">
-    <link rel="stylesheet" href="styles/mobile.css">
-    <link rel="stylesheet" href="styles/desktop.css">
-    <link rel="stylesheet" href="styles/mobile.css">
-    <link rel="icon" href="images/vantyx-logo.svg">
+    <script src="script/reveal.js" defer></script>
 </head>
 <body>
-    <header>
-    <nav class="navbar">
 
+<header>
+    <nav class="navbar">
         <div class="logo">
             <a href="index.html">
-                <img src="images/vantyx-logo.svg" alt="Vantyx Logo" loading="lazy">
+                <img src="images/vantyx-logo.png" alt="Vantyx Logo" loading="eager">
             </a>
         </div>
         <div class="name-vantyx">VANTYX</div>
@@ -31,45 +32,57 @@
             <li><a href="faq.html">FAQs</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
-
-        <div class="hamburger">
-            ☰
-        </div>
-
+        <button class="hamburger" aria-label="Menu">&#9776;</button>
     </nav>
 </header>
-<main>
 
-</main>
+<div class="page-hero">
+    <span class="section-eyebrow">Purchase & Lease</span>
+    <h1>OUR CONTAINERS</h1>
+    <p>40ft industrial steel containers — ready to work as hard as you do.</p>
+</div>
+
+<!-- Container listings will be filled in once pricing/info is received -->
+<div class="containers-placeholder">
+    <div class="containers-placeholder-inner reveal">
+        <h2>PRICING COMING SOON</h2>
+        <p style="color: var(--text-muted); line-height: 1.8; margin-top: 12px;">We're loading up this page with container options and pricing. In the meantime, reach out directly for a custom quote — we respond fast.</p>
+        <br>
+        <a href="contact.html" class="btn-primary" style="margin-top:16px;">Request a Quote</a>
+    </div>
+</div>
+
 <footer>
-
-        <div class="footer-container">
-
+    <div class="footer-container">
+        <div class="footer-brand">
             <div class="logo">
                 <a href="index.html">
                     <img src="images/vantyx-logo.svg" alt="Vantyx Logo">
                 </a>
             </div>
-
+            <p>Industrial-grade 40ft steel containers for purchase or lease. Serving Utah &amp; Idaho.</p>
+        </div>
+        <div class="footer-nav-group">
+            <h4>Navigation</h4>
             <div class="footer-links">
                 <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="containers.html">Containers</a>
+                <a href="about.html">About Us</a>
+                <a href="containers.html">Purchase / Lease</a>
                 <a href="faq.html">FAQs</a>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html">Contact Us</a>
             </div>
-
-            <div class="footer-contact">
-                <p>Email: madams@vantyx.us</p>
-                <p>Phone: (208) 431-0931</p>
-            </div>
-
         </div>
+        <div class="footer-contact-info">
+            <h4>Contact</h4>
+            <a href="mailto:madams@vantyx.us"><span>📧</span> madams@vantyx.us</a>
+            <a href="tel:2084310931"><span>📞</span> (208) 431-0931</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p class="copyright">©️ <span id="currentyear"></span> Vantyx Storage Containers. All rights reserved.</p>
+        <span class="footer-tagline">Utah &amp; Idaho</span>
+    </div>
+</footer>
 
-        <p class="copyright">
-            ©️<span id="currentyear"></span> Vantyx Storage Containers
-        </p>
-
-    </footer>
 </body>
 </html>
