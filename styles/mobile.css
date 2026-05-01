@@ -273,4 +273,30 @@
     .stat-item:nth-child(2) {
         border-bottom: 1px solid var(--border);
     }
+
+    /* CONTAINER CARDS & PRICING GRID */
+    .container-cards-grid,
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .container-card-header,
+    .pricing-card-header {
+        padding: 28px 24px 20px;
+    }
+
+    .container-card-body,
+    .pricing-card-body {
+        padding: 20px 24px 28px;
+    }
+
+    .container-size-badge,
+    .pricing-size {
+        font-size: 2.4rem;
+    }
+
+    .containers-section {
+        padding: 72px 24px;
+    }
 }

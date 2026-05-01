@@ -151,6 +151,7 @@ a {
     transition: filter var(--transition);
 }
 
+
 .name-vantyx {
     font-family: var(--font-display);
     color: var(--white);
@@ -1596,4 +1597,259 @@ footer {
 .containers-placeholder-inner p {
     color: var(--text-muted);
     line-height: 1.7;
+}
+
+/* ============================================================
+   CONTAINER CARDS (HOME — DUAL SHOWCASE)
+   ============================================================ */
+
+.featured .section-header {
+    margin-bottom: 60px;
+}
+
+.container-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.container-card {
+    background: var(--dark-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+    position: relative;
+}
+
+.container-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 60px rgba(0,0,0,0.4);
+}
+
+.container-card-featured {
+    border-color: var(--border-orange);
+    box-shadow: 0 0 40px rgba(255,122,0,0.1);
+}
+
+.container-card-featured:hover {
+    box-shadow: 0 24px 60px rgba(0,0,0,0.5), 0 0 40px rgba(255,122,0,0.2);
+}
+
+.container-card-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--grad-orange);
+    color: var(--black);
+    font-family: var(--font-condensed);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+.container-card-header {
+    padding: 36px 32px 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.container-size-badge {
+    display: inline-block;
+    font-family: var(--font-display);
+    font-size: 3rem;
+    letter-spacing: 3px;
+    color: var(--orange);
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.container-card-header h3 {
+    font-family: var(--font-condensed);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.container-card-body {
+    padding: 28px 32px 36px;
+}
+
+.container-card-body > p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.75;
+    margin-bottom: 24px;
+}
+
+.container-card-body .specs-list {
+    margin-bottom: 32px;
+}
+
+/* ============================================================
+   CONTAINERS PAGE — PRICING GRID
+   ============================================================ */
+
+.containers-section {
+    padding: 100px 60px;
+    background: var(--black);
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.pricing-card {
+    background: var(--dark-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    position: relative;
+    transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.pricing-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 60px rgba(0,0,0,0.4);
+}
+
+.pricing-card-featured {
+    border-color: var(--border-orange);
+    box-shadow: 0 0 40px rgba(255,122,0,0.1);
+}
+
+.pricing-card-featured:hover {
+    box-shadow: 0 24px 60px rgba(0,0,0,0.5), 0 0 40px rgba(255,122,0,0.2);
+}
+
+.pricing-card-popular {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--grad-orange);
+    color: var(--black);
+    font-family: var(--font-condensed);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 20px;
+}
+
+.pricing-card-header {
+    padding: 36px 32px 28px;
+    border-bottom: 1px solid var(--border);
+    background: var(--dark-3);
+}
+
+.pricing-size {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    color: var(--orange);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.pricing-card-header h3 {
+    font-family: var(--font-condensed);
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.pricing-card-header p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.pricing-card-body {
+    padding: 28px 32px 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.pricing-placeholder {
+    padding: 20px;
+    background: var(--dark-3);
+    border: 1px dashed var(--border-orange);
+    border-radius: var(--radius);
+    text-align: center;
+}
+
+.pricing-coming {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    color: var(--orange);
+    margin-bottom: 6px;
+}
+
+.pricing-placeholder p {
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+.pricing-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pricing-features li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: var(--font-condensed);
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--text);
+}
+
+.pricing-features li::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: var(--orange);
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.containers-note {
+    text-align: center;
+    margin-top: 56px;
+    font-size: 1rem;
+    color: var(--text-muted);
+}
+
+.containers-note a {
+    color: var(--orange);
+    transition: opacity var(--transition);
+}
+
+.containers-note a:hover {
+    opacity: 0.8;
 }
