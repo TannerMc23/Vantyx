@@ -10,7 +10,7 @@
     --silver-dim: #8a9099;
     --chrome: #d4d8e0;
 
-    --black: #0a0a0a;
+    --black: #0d0d0d;
     --dark: #111214;
     --dark-2: #18191d;
     --dark-3: #1f2126;
@@ -116,7 +116,7 @@ a {
     justify-content: space-between;
     padding: 0 60px;
     height: 100px;
-    background: rgba(10, 10, 10, 0.97);
+    background: var(--black);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
     position: sticky;
@@ -137,13 +137,9 @@ a {
 .logo img {
     height: 90px;
     width: auto;
-    filter: drop-shadow(0 0 14px rgba(200, 205, 214, 0.3));
     transition: filter var(--transition);
 }
 
-.logo img:hover {
-    filter: drop-shadow(0 0 24px rgba(200, 205, 214, 0.6));
-}
 
 .name-vantyx {
     font-family: var(--font-display);
