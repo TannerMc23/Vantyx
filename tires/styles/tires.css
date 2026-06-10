@@ -1,15 +1,15 @@
 /* ============================================================
-   VANTYX TIRES — BLACK / TURQUOISE / SILVER
+   VANTYX TIRES — BLACK / BRIGHT CYAN / SILVER
    ============================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700;900&family=Barlow:wght@400;500;600&display=swap');
 
 :root {
    /* PRIMARY PALETTE */
-   --turquoise: #00c2b2;
-   --turquoise-light: #00deca;
-   --turquoise-glow: rgba(0, 194, 178, 0.22);
-   --turquoise-dim: rgba(0, 194, 178, 0.08);
+   --turquoise: #00f0f0;
+   --turquoise-light: #33f5f5;
+   --turquoise-glow: rgba(0, 240, 240, 0.22);
+   --turquoise-dim: rgba(0, 240, 240, 0.08);
 
    --silver: #c0c0c0;
    --silver-light: #d8d8d8;
@@ -37,12 +37,12 @@
 
    /* BORDERS */
    --border: rgba(255, 255, 255, 0.07);
-   --border-turquoise: rgba(0, 194, 178, 0.35);
+   --border-turquoise: rgba(0, 240, 240, 0.35);
    --border-silver: rgba(192, 192, 192, 0.3);
    --border-navy: rgba(26, 58, 92, 0.5);
 
    /* GRADIENTS */
-   --grad-turquoise: linear-gradient(135deg, #00c2b2 0%, #00deca 100%);
+   --grad-turquoise: linear-gradient(135deg, #00f0f0 0%, #33f5f5 100%);
    --grad-silver: linear-gradient(135deg, #909090 0%, #d8d8d8 50%, #909090 100%);
    --grad-navy: linear-gradient(135deg, #0d2240 0%, #1a3a5c 100%);
 
@@ -175,7 +175,7 @@ a {
 }
 
 .logo img:hover {
-   filter: drop-shadow(0 0 16px rgba(0, 194, 178, 0.5));
+   filter: drop-shadow(0 0 16px rgba(0, 240, 240, 0.5));
 }
 
 .name-vantyx {
@@ -183,7 +183,7 @@ a {
    color: var(--white);
    font-size: 3.4rem;
    letter-spacing: 5px;
-   text-shadow: 0 0 30px rgba(0, 194, 178, 0.25);
+   text-shadow: 0 0 30px rgba(0, 240, 240, 0.25);
 }
 
 .nav-back {
@@ -273,7 +273,7 @@ a {
 
 .btn-primary:hover {
    transform: translateY(-2px);
-   box-shadow: 0 8px 30px rgba(0, 194, 178, 0.4);
+   box-shadow: 0 8px 30px rgba(0, 240, 240, 0.4);
    filter: brightness(1.1);
 }
 
@@ -350,7 +350,7 @@ a {
    content: '';
    position: absolute;
    inset: 0;
-   background: radial-gradient(ellipse at 50% 0%, rgba(0, 194, 178, 0.07) 0%, transparent 70%);
+   background: radial-gradient(ellipse at 50% 0%, rgba(0, 240, 240, 0.07) 0%, transparent 70%);
 }
 
 .page-hero .section-eyebrow {
@@ -401,7 +401,7 @@ a {
    left: -10%;
    width: 60%;
    height: 100%;
-   background: linear-gradient(135deg, rgba(0, 194, 178, 0.05) 0%, transparent 70%);
+   background: linear-gradient(135deg, rgba(0, 240, 240, 0.05) 0%, transparent 70%);
 }
 
 .hero-content {
@@ -519,13 +519,13 @@ a {
 .hero-ring-1 {
    width: 500px;
    height: 500px;
-   border: 28px solid rgba(0, 194, 178, 0.10);
+   border: 28px solid rgba(0, 240, 240, 0.10);
 }
 
 .hero-ring-2 {
    width: 760px;
    height: 760px;
-   border: 50px solid rgba(0, 194, 178, 0.05);
+   border: 50px solid rgba(0, 240, 240, 0.05);
 }
 
 .hero-ring-3 {
@@ -542,10 +542,7 @@ a {
    width: 600px;
    height: 600px;
    border-radius: 50%;
-   background: radial-gradient(ellipse at center,
-         rgba(0, 194, 178, 0.09) 0%,
-         rgba(192, 192, 192, 0.03) 40%,
-         transparent 70%);
+   background: radial-gradient(ellipse at center, rgba(0, 240, 240, 0.09) 0%, rgba(192, 192, 192, 0.03) 40%, transparent 70%);
 }
 
 /* ============================================================
@@ -859,7 +856,7 @@ a {
 .gallery-item-overlay {
    position: absolute;
    inset: 0;
-   background: linear-gradient(180deg, transparent 50%, rgba(0, 194, 178, 0.15) 100%);
+   background: linear-gradient(180deg, transparent 50%, rgba(0, 240, 240, 0.15) 100%);
    opacity: 0;
    transition: opacity var(--transition);
 }
@@ -868,7 +865,6 @@ a {
    opacity: 1;
 }
 
-/* LIGHTBOX */
 .lightbox {
    display: none;
    position: fixed;
@@ -965,7 +961,6 @@ a {
 
 .gallery-cta {
    text-align: center;
-   margin-top: 64px;
    padding-top: 64px;
    border-top: 1px solid var(--border);
    max-width: 1200px;
@@ -1087,7 +1082,7 @@ a {
    content: '';
    position: absolute;
    inset: 0;
-   background: radial-gradient(ellipse at 50% 0%, rgba(0, 194, 178, 0.08) 0%, transparent 60%);
+   background: radial-gradient(ellipse at 50% 0%, rgba(0, 240, 240, 0.08) 0%, transparent 60%);
 }
 
 .cta-inner {
@@ -1402,7 +1397,7 @@ a {
    content: '';
    position: absolute;
    inset: 0;
-   background: radial-gradient(ellipse at 50% 40%, rgba(0, 194, 178, 0.07) 0%, transparent 65%);
+   background: radial-gradient(ellipse at 50% 40%, rgba(0, 240, 240, 0.07) 0%, transparent 65%);
 }
 
 .thankyou-inner {
